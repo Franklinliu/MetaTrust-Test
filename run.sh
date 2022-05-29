@@ -10,4 +10,4 @@ unzip master.zip
 
 cd opensea-creatures-master 
 
-slither .
+slither . --json /usr/share/slither-result/opensea-creatures.json
