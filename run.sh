@@ -2,7 +2,7 @@
 
 echo "I'm running ${COMPOSE_PROJECT_NAME}"
 
-sudo apt install unzip
+apt-get install unzip
 
 wget https://github.com/crytic/slither/archive/refs/heads/master.zip
 
