@@ -10,4 +10,6 @@ unzip master.zip
 
 cd opensea-creatures-master 
 
+npm install
+
 slither . --json /usr/share/slither-result/opensea-creatures.json
