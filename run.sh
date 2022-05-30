@@ -18,6 +18,20 @@ slither . --json /usr/share/slither-result/openzeppelin-contracts.json
 
 cd ..
 
+wget https://github.com/dicether/contracts/archive/refs/heads/master.zip
+
+unzip master.zip
+
+rm master.zip
+
+cd contracts-master 
+
+npm install 
+
+slither . --json /usr/share/slither-result/dicether.json
+
+cd ..
+
 wget https://github.com/ProjectOpenSea/opensea-creatures/archive/refs/heads/master.zip
 
 unzip master.zip
@@ -29,5 +43,7 @@ cd opensea-creatures-master
 npm install
 
 slither . --json /usr/share/slither-result/opensea-creatures.json
+
+
 
 
