@@ -21,6 +21,20 @@ slither . --json /usr/share/slither-result/openzeppelin-contracts.json
 
 cd ..
 
+wget https://github.com/larvalabs/cryptopunks/archive/refs/heads/master.zip
+
+unzip master.zip
+
+rm master.zip
+
+cd cryptopunks-master
+
+npm install
+
+slither .  --json /usr/share/slither-result/cryptopunks.json
+
+cd ..
+
 wget https://github.com/dicether/contracts/archive/refs/heads/master.zip
 
 unzip master.zip
