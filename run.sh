@@ -4,6 +4,9 @@ echo "I'm running ${COMPOSE_PROJECT_NAME}"
 
 apt-get install unzip
 
+
+cd /usr/share/test-project
+
 wget https://github.com/OpenZeppelin/openzeppelin-contracts/archive/refs/heads/master.zip
 
 unzip master.zip
@@ -27,6 +30,8 @@ rm master.zip
 cd contracts-master 
 
 npm install 
+
+npm build
 
 slither . --json /usr/share/slither-result/dicether.json
 
