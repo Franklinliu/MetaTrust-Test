@@ -16,6 +16,8 @@ npm install
 
 slither . --json /usr/share/slither-result/openzeppelin-contracts.json
 
+cd ..
+
 wget https://github.com/ProjectOpenSea/opensea-creatures/archive/refs/heads/master.zip
 
 unzip master.zip
